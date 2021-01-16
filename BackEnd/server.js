@@ -23,6 +23,7 @@ app.use('/user',user);        //  setting router
 app.use('/course',course);
 app.use('/university',university);        //  setting router 
 app.use('/user/auth',require('./routes/userAuthRoute')); 
+app.use('/category',require('./routes/category')); 
 
 
 const PORT = 3000;

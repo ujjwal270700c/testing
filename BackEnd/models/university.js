@@ -20,8 +20,6 @@ var universitySchema = new mongoose.Schema({
         }
     ]
 
-    
-
 });
 
 
